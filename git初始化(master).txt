@@ -1,0 +1,10 @@
+https://ithelp.ithome.com.tw/articles/10211058
+
+
+$ git config --global user.name "你的使用者名稱"
+$ git config --global user.email "你的Email"
+
+$ git config --list
+// 查看設定
+$ git init
+init完就有master了可以開始git add

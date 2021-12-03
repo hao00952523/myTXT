@@ -1,0 +1,32 @@
+https://blog.csdn.net/u013948858/article/details/111464534
+最後須輸入docker pull "需要的image"空間就會自動放大了
+
+
+
+https://www.youtube.com/watch?v=Tlswgxl_Xyk
+
+matlab環境 ---docker
+
+
+https://stackoverflow.com/questions/65291132/how-to-install-both-matlab-mcr-and-the-dotnet-runtime-in-a-docker-container
+
+11/16
+-轉換docker位置，擴增docker空間
+-docker設置runtime環境(修改docker file未完成)
+-jenkins設置MSBuild問題修改 
+
+docker pull usuresearch/matlab-runtime
+
+
+
+
+https://iter01.com/610710.html
+docker轉換執行容器
+原Sever部分的作業系統是linux
+clien是windows
+跟改windows通知欄的鯨魚圖示，切換到windows容器
+
+runtime環境建置
+https://www.youtube.com/watch?v=MgUV_Alr42g --docker安裝、容器、hyper-v
+https://github.com/USU-Research/matlab-runtime/blob/master/Dockerfile
+https://segmentfault.com/q/1010000014706486 --尋訪虛擬機

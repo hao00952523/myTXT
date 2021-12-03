@@ -1,0 +1,11 @@
+研究docker
+-安裝docker desktop
+將sv的檔案做成image
+
+docter終端機指令
+如果安裝後無法運行可以打 service docker start
+
+docker run tomcat:latest 將運行最新、可用的image版本，如果已經有了會立刻運行
+
+VS包入docker可透過vs內建安裝器(不是nuget)安裝docker，安裝後當案就可添加docker了
+

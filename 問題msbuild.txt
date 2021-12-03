@@ -1,0 +1,18 @@
+msbuild
+使用vs位置的msbuild，搭原位置的.sln，jenkins可以成功跑，
+不是msbuild問題 jenkins 輸出出來的.sln原來就跑不起來
+sln從github載下來可用
+
+
+
+目前問題
+-因為github上傳傳入的容量大小有限制，用其他上傳功能最大也只有1G，無法上傳(我們的web api大小快2G)
+-MSbuild or Jenkin問題，經過Jenkins建置後產生的新資料(從github抓取的sln)無法成功建置，將原檔.sln上傳至Jenkins可以成功建置
+-githook ip位置已更改 不安全為連線成功
+(已解決)
+
+C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Msbuild\ConsoleApp1117.sln
+建置錯誤
+C:\Users\101_test_pc\source\repos\ConsoleApp1117\ConsoleApp1117.sln
+非Jenkins建置出來的原檔可執行成功
+

@@ -1,0 +1,43 @@
+
+token
+110bf9dd00609b0f36bff1c63d34ebddc0
+
+github token
+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
+
+ssh新增密鑰用指令
+$ ssh-keygen -t rsa -b 4096 -C "hao00952523@gmail.com"
+
+
+$ ssh-add ~/.ssh/id_rsa
+
+
+覆蓋代碼率
+獲取覆蓋率 –> 發現未覆蓋的代碼 –> 添加新測試用例。這樣的使用方式，
+我把它命名為“代碼覆蓋率驅動的測試（CCDT，Code Coverage Driven Test）
+
+自動化檢察功能 checkstyle插件已停用，無法再套入
+改用
+Jenkins Warnings Next Generation 插件
+
+
+使用密鑰commit到jenkins上或者使用github桌面板clone到儲存庫
+
+
+tomcat 的服務氣跟jenkins服務氣的port一樣是8080，要修改tomcat的port
+
+jenkins自動化部屬到tomcat上，需要tomcat權限執行操作
+
+jenkins
+copy artifact插件
+-可以讓jenkins從其他job複製artifact
+deploy to container插件
+-jenkins部署外文件到tomcat
+
+新建好的project
+-會把package job生成的artifact部屬到staging環境的tomcat服務器上
+-上游的(package)完成，staging這個job就會自動觸發
+-透過package添加構件或操作，來觸發deploy-to-staging
+
+pipeline插件
+-用來查看構建上下游的job

@@ -1,0 +1,66 @@
+第一節:課程介紹以及持續集成介紹
+
+1. 课程介绍
+2. 如何学这门课如何答疑
+3. 课程幻灯片
+4. 持续集成介绍
+5. Jenkins介绍以及Jenkins的历史
+
+
+第二節:環境配置和Jenkins安裝
+
+6. Java 9 警告
+7. Mac上安装和配置Java
+8. Windows和Linux上安装和配置Java
+9. 安装Jenkins
+
+第三節: Jenkins的架構，術語，UI介紹，及創造第一個Jenkins Job
+10. Jenkins架构和术语
+11. Jenkins UI的概述:仪表板和菜单
+12. 创建第一个Jenkins Job
+13. 运行第一个Jenkins Job
+
+第四節: 用Jenkins持續集成
+14. 安装Git和Jenkins GitHub插件
+15. 在本地机器上安装Maven
+16. 配置Jenkins来使用Java、Git和Maven
+17. 创建我们的第一个基于maven的Jenkins项目
+18. 文本：创建我们的第一个基于maven的Jenkins项目
+19. 问题解决：创建我们的第一个基于maven的Jenkins项目
+20. Jenkins Workspace和运行我们的第一个Jenkins构建
+21. 问题解决:Jenkins Workspace和运行我们的第一个Jenkins构建
+22. 在jenkins中进行源代码控制轮询
+23. 文本课程：在Jenkins中进行源代码控制轮询
+24. jenkins其他构建触发器
+25. 文本课程：jenkins其他构建触发器
+
+第五節:Jenkins持續檢查
+
+26. 代码质量和代码覆盖率度量报告
+27. 文本课程：代码质量和代码覆盖率度量报告
+28. Jenkins支持Gradle,Ant和Shell Scripts
+29. 文本课程：Jenkins支持Gradle,Ant和Shell Scripts
+
+第六節:Jenkins持續交付
+
+30. 归档构建artifacts
+31. Staging环境上安装和配置tomcat
+32. 部署到Staging环境上
+33. 问题解决：部署到Staging环境上
+34. Jenkins构建Pipeline
+35. 并行的进行Jenkins构建
+36. 部署到生产环境上
+37. 问题解决：部署到生产环境上
+
+第七節:Jenkins Pipeline As Code(Jenkinsfile)
+
+38. Pipeline as Code概述
+39. 文本课程：Pipeline as Code概述
+40. Pipeline As Code代码格式介绍以及上传代码到远程仓库过程介绍
+41. Visual Studio Code 安装和使用及图形界面push代码到git
+42. 创建Pipeline job
+43. 自动化我们现有的Jenkins Pipeline
+44. 问题解决：自动化我们现有的Jenkins Pipeline
+45. 部署到tomcat的Pipeline 代码_staging环境
+46. 部署到tomcat的Pipeline 代码_production环境
+47. Cmder介绍及下载--for Windows

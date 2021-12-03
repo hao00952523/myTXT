@@ -1,0 +1,26 @@
+Jenkins 
+Master:
+-計畫建構jobs
+-分配成子節點運行
+-監控slave結果
+-可執行建構job
+
+Slav
+執行Master分配建構任務
+
+連接雲端GIT的本地位置C:\Users\101_test_pc\source\repos\maven-project
+透過輸入資料在此位置，做GIT PUSH動作可以在遠端GITHUB得到更新資訊
+再由Jenkins做讀取與執行github內的程序，內部
+
+
+本地安裝jenkins(C:\Program Files\Jenkins)
+localhost:8080 默認運行端口
+
+密碼取得
+透過終端機輸入sudo less(jenkins提供位置)，會顯示一串代碼，複製貼上至8080port，就可以開始使用jenkins
+
+
+pipeline as code 
+將應用程序轉成代碼
+幫助ci轉變到cd
+將運行在jenkins上的多個工作節點連接

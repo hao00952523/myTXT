@@ -1,0 +1,9 @@
+CI設定
+https://medium.com/@BuzonXXXX/ci-%E8%A8%AD%E5%AE%9Ajenkins%E9%80%A3%E7%B5%90github-private-repo-111c53d29047
+Jenkins連結GitHub
+GitHub > settings > Developer settings > Personal access tokens
+設定token，token令牌會有到期時間
+
+GitHub webhook設定
+進入GitHub要設定的repo > Settings > Webhooks > Add webhook
+输入部署的Jenkins server IP
